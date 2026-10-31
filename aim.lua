@@ -16,7 +16,7 @@ local oldnamecall
 local leadFraction = 0.85 -- 1.0 = tam tahmin, düşürmek overshoot'u azaltır, F3 ile ayarlanabilir
 
 local posHistory = {} -- [Player] = { {pos=Vector3, t=number}, ... }
-local HISTORY_LEN = 3
+local HISTORY_LEN = 6
 
 -- ping moving average — tek örnek jitter'ını ezer
 local pingHistory = {}
